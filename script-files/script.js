@@ -1,20 +1,23 @@
 window.addEventListener('load', main)
 const aboutMe = document.getElementById("aboutMe")
-const gallery = document.getElementById("gallery")
+const projects = document.getElementById("projects")
 
 function main (){
 
 }
 
-aboutMe.onclick = function () {
-    if (aboutMe.style.height = "10rem"){
-        aboutMe.style.height = "20rem"
-    }
-    else if (aboutMe.style.height = "20rem") {
-        aboutMe.style.height = "10rem"         
-    }
+aboutMe.onmouseover = function () {
+    aboutMe.style.height = "20rem"  
 }
 
-gallery.onclick = function() {
-    gallery.style.height = "20rem"
+aboutMe.onmouseout = function() {
+    aboutMe.style.height = "3rem"
+}
+
+projects.onmouseover = function () {
+    projects.style.height = "20rem"  
+}
+
+projects.onmouseout = function() {
+    projects.style.height = "3rem"
 }
