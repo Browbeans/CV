@@ -35,3 +35,36 @@ header {
     border-radius: 8rem;
     margin-top: 4rem;
 }
+
+.container {
+    width: 60%;
+    margin-top: 10rem;
+}
+
+.container div {
+    border-radius: 1rem;
+}
+
+.about-me {
+    height: 3rem;
+    margin-bottom: 2rem;
+    overflow: hidden;
+    background: #696666;
+    flex-direction: column;
+}
+
+.about-me img {
+    width: 10rem;
+    margin: 1rem;
+    border-radius: 1rem;
+}
+.container h2, p {
+    margin: 1rem;
+}
+
+.gallery {
+    height: 3rem;
+    margin-bottom: 2rem;
+    overflow: hidden;
+    background: #696666;
+}
