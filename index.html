@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/style-files/style.css">
     <script defer src="/script-files/script.js"></script>
+    <script src="game.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
     <title>Document</title>
@@ -102,6 +103,28 @@
             </div>
         </div>
         <hr>
+        <div class="game flex centered">
+            <div class="rock-paper-scissors flex">
+                <h3>Play ROCK PAPER SCISSOR</h3>
+                <div class="select-button flex centered">
+                    <button class="selection" data-selection="scissor">✌️</button>
+                    <button class="selection" data-selection="paper">✋</button>
+                    <button class="selection" data-selection="rock">✊</button>
+                </div>
+                <div class="results">
+                    <div>
+                        You:
+                        <span class="result-score" data-user-score>0</span>
+                    </div>
+                    <div data-final-column>
+                        Olivers site:
+                        <span class="result-score" data-oliver-score>0</span>
+                    </div>
+                    <!--div class="result-selection">✊</div>
+                    <div class="result-selection winner">✋</div-->
+                </div>
+            </div>
+        </div>
     </main>
    
 </body>
