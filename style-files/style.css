@@ -1,7 +1,6 @@
 body {
     margin: 0;
     font-family: 'Roboto', sans-serif;
-    background: #1ab5b3;
     color: #1ab5b3;
 }
 
@@ -40,9 +39,16 @@ header {
 }
 
 /* Main content */
+main {
+    background: #0c3549;
+}
+
+.main-jr {
+    background: #1ab5b3;
+}
 
 .container {
-    width: 60%;
+    width: 70%;
     margin-top: 10rem;
 }
 
@@ -54,31 +60,50 @@ header {
     margin: .7rem;
 }
 
+.home {
+    height: 30rem;
+    background: #0c3549;
+    margin-bottom: 2rem;
+}
+
+.welcome {
+    width: 50%;
+    flex-direction: column;
+    margin: 1rem;
+}
+
+
+.personal-info img {
+    width: 10rem;
+    max-height: 15.4375rem;
+    margin: 1rem;
+    border-radius: 1rem;
+}
+.personal-info i {
+    font-size: 2rem;
+    margin: 0 1rem 0 0;
+}
+.personal-info li {
+    list-style: none;
+}
+
 .about-me {
     height: 3rem;
     margin-bottom: 2rem;
     overflow: hidden;
     background: #0c3549;
-    flex-direction: column;
     transition: all 500ms;
+    flex-direction: column;
 }
 
+.text-about-me  {
+    flex-direction: row;
+    font-size: 1.3rem;
+} 
 
-
-.about-me img {
-    width: 10rem;
-    margin: 1rem;
-    border-radius: 1rem;
+.text-about-me div {
+    margin: 1rem;   
 }
-.about-me i {
-    font-size: 2rem;
-    margin: 0 1rem 0 0;
-}
-.about-me li {
-    list-style: none;
-}
-
-
 
 .upcoming-projects {
     height: 3rem;
@@ -86,6 +111,19 @@ header {
     overflow: hidden;
     background: #0c3549;
     transition: all 500ms;
+}
+
+.project-boxes {
+    justify-content: space-around;
+    align-items: center;
+}
+
+.bjertorp {
+    width: 8rem;
+    height: 8rem;
+    margin: 4rem 0 4rem 0;
+    
+    background: #e82a4e;
 }
 
 .social-media {
@@ -100,4 +138,8 @@ header {
     font-size: 8rem;
     margin: 2rem;
     color: #e82a4e;
+}
+
+hr {
+    margin: 0;
 }
