@@ -1,0 +1,42 @@
+@media (max-width: 35em) {
+    header h2 {
+        font-size: 1rem;
+    }
+    
+    .profile {
+       display: none; 
+    }
+
+    .container {
+        width: 100%;
+        font-size: .8rem;
+    }
+
+    .personal-info h3{
+        font-size: .8rem;
+    }
+
+    .text-about-me {
+        font-size: .75rem;
+    }
+
+    .social-media {
+        height: 12rem;
+    }
+
+    .social-media div i {
+        font-size: 4rem;
+    }
+
+    .selection {
+        font-size: 3rem;
+    }
+
+    .result-selection {
+        font-size: 2rem;
+    }
+    
+    .result-selection.winner {
+        font-size: 2rem;
+    }
+}
