@@ -1,7 +1,7 @@
 const selectionButtons = document.querySelectorAll('[data-selection]')
-const finalColumn = document.querySelector('[data-final-column]')
-const oliverScore = document.querySelector('[data-oliver-score]')
-const userScore = document.querySelector('[data-user-score]')
+const finalColumn = document.getElementById('finalcolumn')
+const oliverScore = document.getElementById('oliverscore')
+const userScore = document.getElementById('userscore')
 
 const SELECTIONS = [
     {
