@@ -79,10 +79,12 @@ main {
     margin: 1rem;
     border-radius: 1rem;
 }
+
 .personal-info i {
     font-size: 2rem;
     margin: 0 1rem 0 0;
 }
+
 .personal-info li {
     list-style: none;
 }

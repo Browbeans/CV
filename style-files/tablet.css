@@ -1,0 +1,27 @@
+@media (max-width: 80.75em) {
+    .home, .text-about-me {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .personal-info i {
+        font-size: 1.5rem;
+    }
+
+    .personal-info img {
+        width: 7rem;
+    }
+
+    .personal-info h3 {
+        font-size: 1rem;
+    }
+
+    .text-about-me {
+        font-size: 1rem;
+    }
+
+    .text-about-me h3 {
+        margin: 0;
+    }
+}
