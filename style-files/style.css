@@ -120,12 +120,17 @@ main {
     align-items: center;
 }
 
-.bjertorp {
+.boxes {
     width: 8rem;
     height: 8rem;
-    margin: 4rem 0 4rem 0;
-    
+    margin: 4rem 0 4rem 0; 
     background: #e82a4e;
+}
+
+.boxes img {
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 1rem;
 }
 
 .social-media {

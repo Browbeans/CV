@@ -39,4 +39,9 @@
     .result-selection.winner {
         font-size: 2rem;
     }
+
+    .boxes {
+        width: 6rem;
+        height: 6rem;
+    }
 }
