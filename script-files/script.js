@@ -2,6 +2,7 @@ window.addEventListener('load', main)
 const aboutMe = document.getElementById('aboutMe')
 const projects = document.getElementById('projects')
 const boxes = document.getElementById('boxes')
+
 let i = 0; 
 
 
@@ -18,7 +19,7 @@ function typeWriter() {
         i++
         setTimeout(typeWriter, speed)
     }
-} 
+}
 
 function addEventListeners () {
     aboutMe.onmouseover = makeAboutMeBigger

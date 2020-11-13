@@ -1,7 +1,7 @@
 body {
     margin: 0;
     font-family: 'Roboto', sans-serif;
-    color: #1ab5b3;
+    color: #acd1dc;
 }
 
 
@@ -44,12 +44,12 @@ main {
 }
 
 .main-jr {
-    background: #1ab5b3;
+    background: #acd1dc;
 }
 
 .container {
     width: 70%;
-    margin-top: 10rem;
+    margin-top: 14rem;
 }
 
 .container div {
@@ -152,7 +152,7 @@ hr {
 .rock-paper-scissors {
     width: 70%;
     height: 30rem;
-    background: #1ab5b3;
+    background: #acd1dc;
     color: #0c3549;
     align-items: center;
     flex-direction: column;
@@ -189,4 +189,21 @@ hr {
 .result-selection.winner {
     opacity: 1;
     font-size: 3rem;
+}
+
+
+footer {
+    width: 100%;
+    height: 10rem;
+    background: #acd1dc;
+    color: #0c3549;
+}
+
+footer li {
+    list-style: none;
+    margin-bottom: 1rem;
+}
+
+footer ul {
+    padding: 0;
 }
