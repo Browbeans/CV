@@ -1,3 +1,4 @@
+/* Will change styling for phone screen size*/
 @media (max-width: 35em) {
     header h2 {
         font-size: 1rem;

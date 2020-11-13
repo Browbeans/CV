@@ -1,3 +1,4 @@
+/* Styling for tablet screen-size*/
 @media (max-width: 80.75em) {
     .home, .text-about-me {
         flex-direction: column;
