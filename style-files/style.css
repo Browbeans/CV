@@ -121,16 +121,32 @@ main {
 }
 
 .boxes {
-    width: 8rem;
-    height: 8rem;
+    width: 7rem;
+    height: 7rem;
     margin: 4rem 0 4rem 0; 
     background: #e82a4e;
+}
+
+.box-game {
+    background: url('/pics/game.png');
+    background-size: 100% 100%;
+}
+
+.box-calender {
+    background: url('/pics/calender.png');
+    background-size: 100% 100%;
 }
 
 .boxes img {
     max-width: 100%;
     max-height: 100%;
     border-radius: 1rem;
+}
+
+.boxes a {
+    color: #0c3549;
+    font-weight: 700;
+    text-decoration: none;
 }
 
 .social-media {
