@@ -128,12 +128,12 @@ main {
 }
 
 .box-game {
-    background: url('/pics/game.png');
+    background: url('./pics/game.png');
     background-size: 100% 100%;
 }
 
 .box-calender {
-    background: url('/pics/calender.png');
+    background: url('./pics/calender.png');
     background-size: 100% 100%;
 }
 
